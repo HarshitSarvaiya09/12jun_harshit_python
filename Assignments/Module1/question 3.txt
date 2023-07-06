@@ -1,0 +1,8 @@
+ (3) QUE.-what is SDLC? explain each phase of SDLC?
+   ANS.- (SDLC) the software devlopment life cycle
+    the methology focuses on the following phases of software development:
+     1.requirement gathering 
+    -the process of identifying your project exact requirement 
+     2.analysis
+    -                                             
+    

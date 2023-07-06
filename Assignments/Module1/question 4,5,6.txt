@@ -1,0 +1,9 @@
+ (4)que.-what is DFD? creat a DFD diagram on flipcart
+    ans.- data flow diagram (DFD)
+     DFD is used show to the flow of data of a system
+
+ (5)que.-what is FLO CHART? creat a flow chart to make addition of two number
+    ans.-a flow chart is used to show the flow of a procces
+
+ (6)que.-what is use case diagram? creat a use-case on bill payment on paytm.
+    ans.- 
