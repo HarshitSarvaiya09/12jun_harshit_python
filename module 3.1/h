@@ -1,1 +1,9 @@
 
+#include<stdio.h>
+int main()
+{
+printf("name - sarvaiya harshit");
+printf("\nD.O.B - 06\04\2006");
+printf("\nage - 18");
+printf("\naddress - shubham park 2 , krishna chowk , kothariya solvant rajkot");
+}
