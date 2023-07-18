@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a , b , sum;
+printf("enter the value of a and b");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("Addition of A and B is: %d",sum);
+sum=a-b;
+printf("\nsubtraction of a and b is:%d",sum);
+sum=a*b;
+printf("\nmultipliction of a and b is:%d",sum);
+sum=a/b;
+printf("\ndivision of a and b is:%d",sum);
+return 0;
+}
