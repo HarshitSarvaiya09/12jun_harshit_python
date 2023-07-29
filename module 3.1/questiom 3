@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+	int ch;
+	printf("Enter the choice \n1.circle\n2.rectangle\n3.triangle :");
+	scanf("%d",&ch);
+	switch(ch){
+		case 1:
+			float circle,pi = 3.14;
+			int r;
+			printf("Enter the redius: ");
+			scanf("%d",&r);
+			circle = pi*r*r;
+			printf("%d",circle);
+			break;
+		case 2:
+			int l,w,rectangle=0;
+			printf("Enter the length :");
+			scanf("%d",&l);
+			printf("\nEnter the weight :");
+			scanf("%d",&w);
+			rectangle = l*w;
+			printf("%d",rectangle);
+			break;
+		case 3:
+			int hb, b, triangle=0;
+			printf("Enter the hight :");
+			scanf("%d",&hb);
+			printf("\nEnter the base :");
+			scanf("%d",&b);
+			triangle = hb*b/2;
+			break;
+		default:
+			printf("Invalid choice");
+			break;
+	}
+	return 0;
+}
