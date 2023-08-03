@@ -1,0 +1,21 @@
+ #include<stdio.h>
+ int main()
+ {
+     int a,ch;
+     printf("1.Years Into Days\n2.Days Into Years ");
+     printf("\n enter your choce:");
+     scanf("%d",&ch);
+     printf("\nenter your digits:");
+     scanf("%d",&a);
+     switch(ch)
+     {
+         case 1:
+         printf("%d",a*365);
+         break;
+         case 2:
+         printf("%d",a/365);
+         break;
+         default:
+         printf("enter the valid value");
+     }
+ }
