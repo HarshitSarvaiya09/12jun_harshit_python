@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int h,p;
+int array[3][3];
+for(h=0;h<3;h++)
+{
+    for(p=0;p<3;p++)
+    {
+    printf("enter the value of array[%d][%d] ",h,p);
+    scanf("%d",&array[h][p]);
+    }
+}
+for(h=0;h<3;h++)
+{
+    for(p=0;p<3;p++)
+    {
+    printf("%d ",array[h][p]);
+    }
+    printf("\n");
+}
+}
