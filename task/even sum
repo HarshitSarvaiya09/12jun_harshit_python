@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,sum=0;
+    
+        for(a=1;a<10;a++)
+      {  
+          if(a%2==0)
+          {
+              sum+=a;
+             printf("%d, ",a);
+          }
+      }
+      printf("\n%d",sum);
+    
+}
