@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct stdata
+{
+    int no;
+    char name[10];
+}obj;
+int main()
+{
+printf("enter your roll no:");
+scanf("%d",&obj.no);
+printf("enter your name:");
+scanf("%s",&obj.name);
+printf("\nyour name is %s \n your roll no is:%d ",obj.name,obj.no);
+
+return 0;
+}
