@@ -1,0 +1,18 @@
+Structure:-
+    structure are used to struct keyword.
+    memory is allocated for each member.
+    example:
+        struct name
+        {
+            /*data*/
+        }object name;
+    
+Union:-
+    union are used to union keyword.
+    memory is allocated as per largest member.
+    example:
+        union name
+        {
+            /* data */
+        }object name;
+        
