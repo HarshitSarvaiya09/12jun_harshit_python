@@ -1,60 +1,52 @@
- #include<stdio.h> 
- void show(); 
- void mult(); 
- int main() 
- { 
-     int i,j; 
-     int m1[2][2],m2[2][2],result[2][2]; 
-     printf("Enter the first matrix\n"); 
-     for(i=0; i<2; i++) 
-     { 
-         for(j=0; j<2; j++) 
-         { 
-             printf("Enter the element :"); 
-             scanf("%d",&m1[i][j]); 
-         } 
-     } 
-     show(m1); 
-     printf("\nEnter the second matrix\n"); 
-     for(i=0; i<2; i++) 
-     { 
-         for(j=0; j<2; j++) 
-         { 
-             printf("Enter the element :"); 
-             scanf("%d",&m2[i][j]); 
-         } 
-     } 
-     show(m2); 
-     mult(m1,m2,result); 
-     printf("\nThe finel result is\n"); 
-     show(result); 
-     return 0; 
- } 
- void show(int m[2][2]) 
- { 
-     int i,j; 
-     for(i=0; i<2; i++) 
-     { 
-         for(j=0; j<2; j++) 
-         { 
-             printf("%d\t",m[i][j]); 
-         } 
-         printf("\n"); 
-     } 
- } 
- void mult(int x[2][2],int y[2][2],int z[2][2]) 
- { 
-     int temp=0,i,j,k; 
-     for(i=0; i<2; i++) 
-     { 
-         for(j=0; j<2; j++) 
-         { 
-             for(k=0; k<2; k++) 
-             { 
-                 temp += x[i][k] * y[k][j]; 
-             } 
-             z[i][j]=temp; 
-             temp=0; 
-         } 
-     } 
- }
+#include<stdio.h>
+matrix_multiplication(int a[2][2] , int b[2][2] , int c[2][2])
+{
+	int row,collum,k,temp=0;
+	for(row=0;row<2;row++)
+	{
+		for(collum=0;collum<2;collum++)
+		{
+			for(k=0;k<2;k++)
+			{
+				temp+=a[row][k]*b[k][collum];
+			}
+			c[row][collum]=temp;
+
+		}
+	}
+}
+show_matrix(int m1[2][2])
+{
+	int row,collum;
+	for(row=0;row<2;row++)
+	{
+		for(collum=0;collum<2;collum++)
+		{
+			printf("%d",m1[row][collum]);
+		}
+		printf("\n ");
+	}
+}
+int getdata(int m1[2][2])
+{
+	int row,collum;
+	for(row=0;row<2;row++)
+	{
+		for(collum=0;collum<2;collum++)
+		{
+			printf("enter element: ");
+			scanf("%d",&m1[row][collum]);
+		}
+	}
+}
+int main()
+{
+	int m1[2][2],m2[2][2],ans[2][2];
+	getdata(m1);
+	show_matrix(m1);
+	getdata(m2);
+	show_matrix(m2);
+	matrix_multiplication(m1,m2,ans);
+	show_matrix(ans);
+	return 0;
+}
