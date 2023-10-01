@@ -1,0 +1,6 @@
+que. 9;
+      what is save point? how to create a save point write a query?
+ans;
+    the syntax for savepoint command is as shown below:
+     SAVEPOINT SAVEPOINT_NAME
+    this command serves only in the creation of a savepoint among all the transaction statements.  
