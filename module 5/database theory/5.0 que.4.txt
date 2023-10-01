@@ -1,0 +1,7 @@
+que. 4;
+      what is MF cod rule of RDBMS system?
+ans;
+   MF cod rule is thirteen
+(0 to 12)
+   that define a database to be correct relational data base management system (RDBMS)
+   
