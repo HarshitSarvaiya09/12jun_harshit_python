@@ -1,0 +1,6 @@
+que. 6;
+      what is DDL interpreter?
+ans;
+   which interprets DDL statement and record the definitions in the data dictionary.,
+   DDL interpreter DDL expands to data defination language.
+   
