@@ -1,0 +1,6 @@
+que 3;
+     what is difference between DBMS and RDBMS?
+ans;
+   DBMS data is stored as a file, 
+   while in RDBMS data is stored in the form of table.
+   A DBMS has less software and hardware requirements that an RDBMS.
