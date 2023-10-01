@@ -1,0 +1,5 @@
+que.2;
+     what is normalization?
+ans;
+    normalization is a series of step used to evaluate and modify table structures to ensure that every noy key columm in every table is directly dependent on the primary key.
+    
