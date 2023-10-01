@@ -1,0 +1,8 @@
+que. 8;
+      what is SQL key constraints writing an example of SQL key constraints
+ans;
+   SQL constraints are used to specify rules for the data in table.,
+   constraints are used to limit the type of data that can go into a table.,
+   this ensures the accuracy and reliability of the data in the table., 
+   if there is any violation between the constraint and data action,
+   the action is aborted.
