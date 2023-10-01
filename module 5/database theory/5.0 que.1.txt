@@ -1,0 +1,5 @@
+que.1;
+     what do you understand by database
+ans;
+    a database is an organized collection of structured information,
+    typically stored electronically in a computer system.
