@@ -1,0 +1,4 @@
+que. 10;
+       what is trigger and how to creat atrigger in SQL?
+ans;
+   A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server
